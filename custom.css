@@ -1,0 +1,33 @@
+@layer utilities {
+    .content-auto {
+      content-visibility: auto;
+    }
+  }
+
+  @keyframes bounces {
+    from{
+      transform: translate(10%);
+    }to{
+      transform: translateX(0);
+    }
+  }
+
+.notification{
+  animation: bounces 900ms cubic-bezier(.22,.77,0,1.31);
+}
+
+.modal .inp-name{
+  border: 0;
+  box-shadow: none;
+  background-color: white;
+  cursor: default;
+  padding: 10px;
+}
+
+.navbar{
+  background-color: aquamarine;
+}
+
+ .profile-imaage .image img{
+  width: 10px;
+}
